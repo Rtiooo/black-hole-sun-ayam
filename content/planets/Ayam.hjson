@@ -22,7 +22,7 @@ mesh: {
     colorScale: 1
     # Array of colors to use in your star. Any number of color values can be here!
     colors: [
-        ff9100
+        #0098ff
     ]
 }
 
@@ -33,12 +33,12 @@ generator: {
   # Mininum amount of asteroids.
   min: 1
   # Maximum amount of asteroids.
-  max: 1
+  max: 90
 
   # Noise properties.
   octaves: 2
   persistence: 0.4
-  scale: 30
+  scale: 90
   mag: 0.4
   thresh: 1
   foct: 3
@@ -47,8 +47,8 @@ generator: {
   fper: 0.6
 
   # Asteroid radius range.
-  radMin: 600
-  radMax: 600
+  radMin: 200
+  radMax: 800
 
   # This one is ABSOLUTELY pointless, lmao.
   stoneChance: 0
@@ -67,7 +67,7 @@ alwaysUnlocked: false
 sectorSize: 1
 # Spacing between a parent (this) and satellites.
 orbitSpacing: 1
-orbitRadius: 0.2
+orbitRadius: 2.3
 orbitOffset: 0
 orbitTime: 30
 # Radius of this planet's sphere.
