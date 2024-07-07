@@ -9,13 +9,13 @@ mesh: {
   # A number used for mesh generation.
   seed: 69
   # Mesh "quality". More divisions = more hexagons.
-  divisions: 4
+  divisions: 10
   # First color to be used.
   color1: 22262b
   # Second color to be used.
   color2: 22262b
   # Mesh radius.
-  radius: 1.9
+  radius: 1.1
   # A noise property.
   octaves: 3
   # A noise property.
@@ -38,7 +38,7 @@ generator: {
   # Noise properties.
   octaves: 8
   persistence: 0.4
-  scale: 80
+  scale: 37
   mag: 0.4
   thresh: 6
   foct: 7
